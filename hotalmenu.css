@@ -1,0 +1,214 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    margin: 1px;
+    background-image: linear-gradient(to right, #4a3a27, #6d7717, #7c6130);
+    box-sizing: border-box;
+
+}
+/* head */
+header {
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+}
+
+.ext1 {
+    border-bottom: 4px solid #ffbdd3;
+    border-bottom-left-radius: 38px;
+    border-bottom-right-radius: 38px;
+}
+
+.hadding1 {
+    font-size: 4.8vw;
+    text-transform: uppercase;
+    text-shadow: 4px 5px #0e0f4b;
+    color: #f0ff51;
+    background-color: #6a5a2b;
+    text-align: center;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+/* back top */
+.back_top a {
+    text-decoration: none;
+    color: #ffaa00;
+    position: fixed;
+    right: 0px;
+    bottom: 6vh;
+    height: 38px;
+    width: 38px;
+    font-size: 55px;
+    background-color: #5b460e;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+/* main content  */
+.ext2 {
+    margin-top: 23px;
+    border-bottom: 4px solid #ffbdd3;
+    border-top: 4px solid #ffbdd3;
+    border-radius: 38px;
+    text-transform: uppercase;
+    overflow: hidden;
+    height: auto;
+}
+.navbar1 {
+    padding: 2px 0px;
+    color: #39d1d6;
+    background-color: #604320;
+    border-radius: 35px;
+    background-image: url(food.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}.mg1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    background-color: #767200df;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    padding-bottom: 6px;
+    margin-bottom: 5px;
+}.mar1 {
+    text-shadow: 4px 5px#0a306d;
+    font-size: 4.3vw;
+    font-weight: 600;
+    animation: top normal ease-out 1s 1 none;
+}
+/* search section */
+.input_table {
+    display: flex;
+    justify-content: center;
+}
+
+#myInput {
+    font-size: 20px;
+    color: #77faff;
+    width: 75%;
+    background-color: #5d6a24b8;
+    padding: 12px 20px 12px 20px;
+    border: 3px solid #d28181;
+    border-radius: 8px;
+    outline: none;
+}
+
+#myTable tbody tr:hover {
+    background-color: #8eb769d8;
+}
+#myTable {
+    border-collapse: collapse;
+    width: 80%;
+    border: 1px solid #ddd;
+}
+/* table section */
+.table1 {
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.thd {
+    border-bottom: 4px solid #0000ff;
+    border-top: 4px solid #0000ff;
+    color: #701572;
+    font-size: 35px;
+    padding: 6px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #faebd776;
+}
+
+tr:nth-child(even) {
+    background-color: #bea7a785;
+}
+
+tr:nth-child(odd) {
+    background-color: #5a50ac82;
+}
+
+.tds1 {
+    background-color: #0000cca2;
+    color: #ffbd57;
+    padding: 6px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tds2 {
+    background-color: #4e0707a2;
+    color: #ff6b6b;
+    padding: 6px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tds3 {
+    background-color: #9a330da2;
+    color: #ffde06;
+    padding: 6px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.iname {
+    background-color: #2f056974;
+    color: #e9ff9b;
+    text-transform: capitalize;
+    padding: 6px;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+.hret {
+    background-color: #0000ff73;
+    color: #a9ff44;
+    padding: 6px;
+}
+
+.fret {
+    background-color: #d639a765;
+    color: #93d248;
+    padding: 6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* botton */
+.botton {
+    display: flex;
+    justify-content: center;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+}
+
+.btn {
+    padding: 6px 40px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 2px solid #00f7ff;
+    color: #00f7ff;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.btn a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: #00f7ff;
+    color: #3377ff;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+@keyframes top {
+    0% {
+        font-size: 1vw;
+    }
+
+    100% {}
+}

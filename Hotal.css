@@ -1,0 +1,164 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    margin: 1px;
+    background-image: linear-gradient(to right, #4a3a27, #6d7717, #7c6130);
+    box-sizing: border-box;
+}
+
+.back_top a {
+    text-decoration: none;
+    color: #ffaa00;
+    position: fixed;
+    right: 0px;
+    bottom: 6vh;
+    height: 38px;
+    width: 38px;
+    font-size: 55px;
+    background-color: #5b460e;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+
+.ext1 {
+    overflow: auto;
+    border-bottom: 4px solid #ffbdd3;
+    border-bottom-left-radius: 38px;
+    border-bottom-right-radius: 38px;
+}
+
+.hadding1 {
+    font-size: 4.8vw;
+    text-transform: uppercase;
+    text-shadow: 4px 5px #0e0f4b;
+    color: #f0ff51;
+    background-color: #6a5a2b;
+    text-align: center;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+.ext2 {
+    margin-top: 23px;
+    border-bottom: 4px solid #ffbdd3;
+    border-top: 4px solid #ffbdd3;
+    border-radius: 38px;
+    text-transform: uppercase;
+    overflow: hidden;
+    height: auto;
+}
+
+.navbar {
+    padding: 2px 0px 90px 0px;
+    color: #39d1d6;
+    background-color: #604320;
+    border-radius: 35px;
+    height: auto;
+    grid-auto-rows: 6.5vw;
+    background-image: url(food.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.meang {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mar {
+    height: 13vw;
+    text-shadow: 4px 5px#0a306d;
+    font-size: 4.3vw;
+    font-weight: 600;
+    background-color: #212e6440;
+    animation: top normal ease-out 1s 1 none;
+}
+
+.non {
+    display: flex;
+}
+
+/* for main space in hole marquee */
+
+.grid1,
+.grid3 {
+    display: flex;
+    align-items: center;
+    height: 16vw;
+    width: 35vw;
+    font-size: 3.7vw;
+    font-weight: 600;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: #5c322b2b;
+}
+
+.grid21 {
+    display: flex;
+    width: 35vw;
+    height: 16vw;
+    align-items: center;
+    font-size: 3.7vw;
+    font-weight: 600;
+    background-color: #1b152075;
+}
+
+.grid1 marquee,
+.grid21 marquee,
+.grid3 marquee {
+    display: flex;
+    justify-content: center;
+}
+
+.m1 a,
+.m3 a {
+    text-decoration: none;
+    text-shadow: 4px 5px #102e22;
+    color: #ff9f58;
+}
+
+.m2 a {
+    text-decoration: none;
+    text-shadow: 4px 5px#393d30;
+    color: #22c253;
+}
+
+.grid1:hover,
+.grid3:hover,
+.grid21:hover {
+    font-size: 4.1vw;
+    border-radius: 8px;
+    background-color: #25045382;
+    border-left: 2px solid #12fff7;
+    border-right: 2px solid #12fff7;
+}
+
+@keyframes top {
+    0% {
+        font-size: 1vw;
+    }
+
+    100% {}
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #272211;
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 50px;
+    border: 2px solid #00ddff;
+}
